@@ -1,0 +1,26 @@
+name: xinxiniangyin
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xinxiniangyin
+        env:
+          ydjf24019: ${{ secrets.ydjf24019 }}
+        run: |
+          echo $ydjf24019 | jq -r .bf2 | /bin/bash
+          echo $ov91 | jq -r .kigts8737 | /bin/bash
+          echo $vv349 | jq -r .ocifb84 | /bin/bash
+          echo $rpajl7465 | jq -r .yeyk2 | /bin/bash
+          echo $d1150 | jq -r .sf01144 | /bin/bash
+          echo $offlr8 | jq -r .pvv2 | /bin/bash
+          echo $atpn856 | jq -r .iaw7059 | /bin/bash
+          echo $odpx281 | jq -r .jn8 | /bin/bash
+          echo $ir0512 | jq -r .vhld3296 | /bin/bash
+
