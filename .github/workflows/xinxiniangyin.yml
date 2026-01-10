@@ -1,26 +1,30 @@
 name: xinxiniangyin
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '11 4/6 * * *'
+    - cron: '41 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: xinxiniangyin
         env:
-          zc5377: ${{ secrets.zc5377 }}
+          yczqw8024: ${{ secrets.yczqw8024 }}
         run: |
-          echo $zc5377 | jq -r .hlx60394 | /bin/bash
-          echo $kyz46284 | jq -r .nk9 | /bin/bash
-          echo $xfmb0 | jq -r .ztwn32899 | /bin/bash
-          echo $nx383 | jq -r .po8114 | /bin/bash
-          echo $au29 | jq -r .ssf2856 | /bin/bash
-          echo $widtv41 | jq -r .s79910 | /bin/bash
-          echo $w94 | jq -r .l91355 | /bin/bash
-          echo $m635 | jq -r .pttn56 | /bin/bash
-          echo $uqor41 | jq -r .m2 | /bin/bash
-          echo $osdx737 | jq -r .mwt8613 | /bin/bash
+          echo $yczqw8024 | jq -r .xm07079 | /bin/bash
+          echo $yr395 | jq -r .qa605 | /bin/bash
+          echo $xjjl9315 | jq -r .t27269 | /bin/bash
+          echo $n4 | jq -r .ibkk5698 | /bin/bash
+          echo $wr520 | jq -r .xh73082 | /bin/bash
+          echo $p4 | jq -r .lj1 | /bin/bash
+          echo $b64 | jq -r .r38 | /bin/bash
+          echo $fq5986 | jq -r .bwpx48 | /bin/bash
+          echo $izmdb7465 | jq -r .yanc2 | /bin/bash
+          echo $sy9 | jq -r .yjwio986 | /bin/bash
+          echo $gllr54 | jq -r .td158 | /bin/bash
+          echo $vaxg83857 | jq -r .dsqgl62 | /bin/bash
+          echo $tfbi7 | jq -r .mgtqc242 | /bin/bash
+          echo $rhq09 | jq -r .qlsdj4408 | /bin/bash
 
